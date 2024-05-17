@@ -15,6 +15,7 @@ Upon receiving a connection, the server accepts image processing requests along 
 It divides the images into parts and distributes them among the available client processes for parallel processing.
 After processing each image part, the server receives the results from the client processes and merges them into the final processed image.
 Additionally, the server sends progress updates to the client processes to track the completion status of image processing tasks.
+
 Client Component:
 
 Client processes connect to the server to request image processing tasks.
