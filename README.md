@@ -1,6 +1,7 @@
 # Cloud-Image-Processing-AWS-
 video link on drive:
 https://drive.google.com/drive/folders/13hMaiN1F6_wGcM_2InYShEdxqVWj1Q6n?usp=sharing
+# Project description
 The "Parallel Image Processing with MPI" project aims to efficiently process a large number of images using parallel computing techniques with the Message Passing Interface (MPI) standard.
 
 The project involves two main components: a server and multiple client processes. The server distributes image processing tasks to the client processes, which execute the tasks concurrently.
